@@ -1,0 +1,77 @@
+body, * {
+    font-family: 'Inter', sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+    background-color: #FFFFFF;
+}
+
+.header__container {
+    width: 1280px;
+    height: 44px;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 32px 0 32px;
+}
+
+.header__logo {
+    width: 148px;
+    height: 27px;
+    gap: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__logo p {
+    width: 113px;
+    height: 24px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #3A404E;
+}
+
+.header__logo img {
+    width: 27px;
+    height: 27px;
+    color: #8E2424;
+}
+
+.header__nav {
+    width: 362px;
+    height: 32px;
+    gap: 32px;
+}
+
+.header__nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__nav a {
+    text-decoration: none;
+    color: #3A404E;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.header__buttons button {
+    border: none;
+    background-color: #FFFFFF;
+    color: #3A404E;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.header__buttons button:nth-child(2) {
+    color: #FFFFFF;
+    background-color: #8E2424;
+    padding: 8px;
+    border-radius: 8px;
+}
