@@ -105,3 +105,45 @@ body, * {
     font-size: 20px;
     font-weight: 400;
 }
+
+.metrics {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 288px;
+    padding-bottom: 96px;
+    gap: 64px;
+}
+
+.metrics__item {
+    width: 200px;
+    height: 168px;
+    padding: 20px;
+}
+
+.metrics__item h1 {
+    width: 280px;
+    height: 72px;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+    color: #8E2424;
+}
+
+.metrics__item span {
+    width: 280px;
+    height: 28px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #101828;
+}
+
+.metrics__item p {
+    width: 280px;
+    height: 48px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #667085;
+}
