@@ -147,3 +147,56 @@ body, * {
     line-height: 24px;
     color: #667085;
 }
+
+.openVacancies {
+    height: 602px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.openVacancies div {
+    text-align: center;
+    height: 138px;
+    top: 96px;
+    left: 80px;
+    padding: 0 32px 0 32px;
+    gap: 32px;
+}
+
+.openVacancies span {
+    width: 125px;
+    height: 28px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    border-radius: 16px;
+    padding: 4px 12px 4px 12px;
+    color: #8E2424;
+}
+
+.openVacancies h1 {
+    width: 768px;
+    height: 44px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #101828;
+}
+
+.openVacancies p {
+    width: 768px;
+    height: 30px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #667085;
+}
+
+.openVacancies img {
+    width: 1216px;
+    height: 400px;
+    top: 298px;
+    left: 112px;
+}
